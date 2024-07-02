@@ -31,6 +31,7 @@ class TrainOptions(BaseOptions):
 
         # training parameters
         parser.add_argument('--lambda_CTPC', type=float, default=2.5, help='weight for GAN loss: GAN(G(X))')
+        parser.add_argument('--unet_seg', type=str, default='BCI_unet_seg', help='pretrain seg model for PCLS')
         parser.add_argument('--n_epochs', type=int, default=200, help='number of epochs with the initial learning rate')
         parser.add_argument('--n_epochs_decay', type=int, default=200, help='number of epochs to linearly decay learning rate to zero')
         parser.add_argument('--beta1', type=float, default=0.5, help='momentum term of adam')
