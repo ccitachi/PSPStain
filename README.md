@@ -12,7 +12,8 @@ Official implementation of "**Pathological Semantics-Preserving Learning for H&E
 # News
 * Code is stil updating.
 * Checkpoint will be released.
-
+* Evaluation process will be described.
+  
 ## Requirements
 ```bash
 conda env create -f environment.yml
@@ -22,7 +23,7 @@ conda env create -f environment.yml
  * Breast Cancer Immunohistochemical (BCI) challenge dataset
  * Multi-IHC Stain Translation (MIST) dataset 
 
- More information and downloading links of the former two datasets can be found in [BCI](https://bupt-ai-cz.github.io/BCI), and [MIST](https://github.com/lifangda01/AdaptiveSupervisedPatchNCE).
+ More information and downloading links of the former two datasets can be found in [BCI](https://bupt-ai-cz.github.io/BCI) and [MIST](https://github.com/lifangda01/AdaptiveSupervisedPatchNCE).
 
 
 ## Training from Scratch 
@@ -34,9 +35,12 @@ We use `experiments/mist_launcher.py` to generate the command line arguments for
 ```bash
 python -m experiments --name PSPStain --cmd train --id 0 --unet_seg 'BCI_unet_seg'
 ```
-## Testing and Evaluation
+## Testing 
 ```bash
 python -m experiments --name PSPStain --cmd test --id 0
 ```
+## Evaluation
+* we use the Image-J to calculate the optical density value.
+
 ## Acknowledgement
 This repo is built upon [Contrastive Unpaired Translation (CUT)](https://github.com/taesungp/contrastive-unpaired-translation) and [Adaptive Supervised PatchNCE Loss (ASP)](https://github.com/lifangda01/AdaptiveSupervisedPatchNCE)
