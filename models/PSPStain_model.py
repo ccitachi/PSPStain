@@ -93,7 +93,7 @@ class PSPStainModel(BaseModel):
         self.netG = networks.define_G(opt.input_nc, opt.output_nc, opt.ngf, opt.netG, opt.normG, not opt.no_dropout, opt.init_type, opt.init_gain, opt.no_antialias, opt.no_antialias_up, self.gpu_ids, opt)
         self.netF = networks.define_F(opt.input_nc, opt.netF, opt.normG, not opt.no_dropout, opt.init_type, opt.init_gain, opt.no_antialias, self.gpu_ids, opt)
         self.netSeg = UNet_pro(in_chns=3,class_num=2)
-        self.netSeg.load_state_dict(torch.load('pretrain/BCI_unet_seg.pth'))
+        self.netSeg.load_state_dict(torch.load(f'pretrain/{opt.unet_seg}.pth'))
         self.netSeg = self.netSeg.to(self.device)
         
         
