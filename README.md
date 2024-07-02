@@ -1,6 +1,6 @@
 # PSPStain
 Official implementation of "**Pathological Semantics-Preserving Learning for H&E-to-IHC Virtual Staining**" (MICCAI 2024)
-### Fuqiang Chen, Ranran Zhang, Boyun Zheng, Yiwen Sun, Jiahui He, Wenjian Qin
+### 🐶Fuqiang Chen🐱, Ranran Zhang, Boyun Zheng, Yiwen Sun, Jiahui He, Wenjian Qin
 <br>
 <p align="center">
 <img src="PSPStain.png" align="center" width="600" >
