@@ -30,6 +30,7 @@ class Launcher(TmuxLauncher):
                 nce_layers='0,4,8,12,16',
                 nce_T=0.07,
                 num_patches=256,
+                unet_seg='BCI_unet_seg',
 
                 # FDL:
                 lambda_gp=10.0,
