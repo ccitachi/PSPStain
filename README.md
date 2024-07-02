@@ -17,6 +17,14 @@ metric process will be released.
 ```bash
 conda env create -f environment.yml
 ```
+
+## Dataset
+ *Breast Cancer Immunohistochemical (BCI) challenge dataset
+ *Multi-IHC Stain Translation (MIST) dataset 
+
+ More information and downloading links of the former two datasets can be found in [page](https://bupt-ai-cz.github.io/BCI), and the RedWeb-S can be downloaded from this [project page](https://github.com/lifangda01/AdaptiveSupervisedPatchNCE).
+💡**Important tips**💡
+* train on different dataset, you need to change the pretrain unet model 'pretrain/BCI_unet_seg.pth' or 'pretrain/MIST_unet_seg.pth'.
 ## Training from Scratch
 We use `experiments/mist_launcher.py` to generate the command line arguments for training and testing. More details on the parameters used in training our models can be found in that launcher file.
 
