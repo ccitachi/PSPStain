@@ -21,7 +21,7 @@ conda env create -f environment.yml
  * Breast Cancer Immunohistochemical (BCI) challenge dataset
  * Multi-IHC Stain Translation (MIST) dataset 
 
- More information and downloading links of the former two datasets can be found in [page](https://bupt-ai-cz.github.io/BCI), and the RedWeb-S can be downloaded from this [project page](https://github.com/lifangda01/AdaptiveSupervisedPatchNCE).
+ More information and downloading links of the former two datasets can be found in [BCI](https://bupt-ai-cz.github.io/BCI), and [MIST](https://github.com/lifangda01/AdaptiveSupervisedPatchNCE).
 
 
 ## Training from Scratch 
