@@ -49,6 +49,10 @@ python -m experiments --name PSPStain --cmd train --id 0 --unet_seg 'BCI_unet_se
 ```bash
 python -m experiments --name PSPStain --cmd test --id 0
 ```
+
+## Checkpoint
+* the latest weight of PSPStain is in [link](https://pan.baidu.com/s/1cPZ2Kk6JtURmtQhtNxzyEQ?pwd=u6qo ) and the key is `u6qo`
+  
 ## Evaluation
 * we use the Image-J to calculate the optical density value.
 
