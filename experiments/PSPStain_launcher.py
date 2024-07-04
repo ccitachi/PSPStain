@@ -6,7 +6,7 @@ class Launcher(TmuxLauncher):
         return [
             # Command 0
             Options(
-                dataroot="../AdaptiveSupervisedPatchNCE_BCI/data_temp_3",
+                dataroot="",
                 # dataroot="../AdaptiveSupervisedPatchNCE/BCI_IHC_data/HER2/TrainValAB",
                 name="train",
                 checkpoints_dir='checkpoints',
