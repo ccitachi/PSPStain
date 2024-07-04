@@ -11,7 +11,6 @@ Official implementation of "**Pathological Semantics-Preserving Learning for H&E
  
 # News
 * Code is stil updating.
-* Checkpoint will be released.
 * Evaluation process will be described.
   
 ## Requirements
