@@ -7,7 +7,7 @@ class Launcher(TmuxLauncher):
             # Command 0
             Options(
                 dataroot="",
-                # dataroot="../AdaptiveSupervisedPatchNCE/BCI_IHC_data/HER2/TrainValAB",
+                
                 name="train",
                 checkpoints_dir='checkpoints',
                 model='PSPStain',
