@@ -29,7 +29,7 @@ conda env create -f environment.yml
 ## Training from Scratch 
 We use `experiments/PSPStain_launcher.py` to generate the command line arguments for training and testing. More details on the parameters used in training our models can be found in that launcher file.
 * set the `dataroot` in `experiments/PSPStain_launcher.py` as your data path. 
-
+```bash
  dataset/
 │
 ├── trainA/
@@ -38,7 +38,7 @@ We use `experiments/PSPStain_launcher.py` to generate the command line arguments
     ├── IHC
 ├── valA/
 ├── valB/
-
+```
 💡**Important tips**💡
 * train on different dataset, you need to change the pretrain unet model `pretrain/BCI_unet_seg.pth` or `pretrain/MIST_unet_seg.pth`.
 
