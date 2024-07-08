@@ -1,5 +1,5 @@
 # PSPStain
-Official implementation of "**Pathological Semantics-Preserving Learning for H&E-to-IHC Virtual Staining**" (MICCAI 2024) [arxiv](https://arxiv.org/abs/2407.03655) 
+Official implementation of "**Pathological Semantics-Preserving Learning for H&E-to-IHC Virtual Staining**" (MICCAI 2024) [[arxiv]](https://arxiv.org/abs/2407.03655) 
 
 ### 🐶Fuqiang Chen, Ranran Zhang, Boyun Zheng, Yiwen Sun, Jiahui He, Wenjian Qin
 <br>
