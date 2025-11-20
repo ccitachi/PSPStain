@@ -52,7 +52,7 @@ python -m experiments --name PSPStain --cmd test --id 0
 
 ## Checkpoint
 * the latest weight of PSPStain is in [link](https://pan.baidu.com/s/1cPZ2Kk6JtURmtQhtNxzyEQ?pwd=u6qo ) and the key is `u6qo`
-  
+* Google Drive [link](https://drive.google.com/file/d/1BCqE_I5ZhLOrESryl2zAd39jU9fc6RvH/view?usp=drive_link)
 ## Evaluation
 * we use the Image-J to calculate the optical density value.
 
